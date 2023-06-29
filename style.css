@@ -1,0 +1,84 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+img{
+    height: 80px;
+    width: 80px;
+}
+#container{
+    float: right;
+    margin-top: 20px;
+    width: 400px;
+  
+    
+} 
+#container1{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+    justify-content: space-evenly;
+
+   
+}
+.demo{
+    width: 180px;
+    height: 250px;
+    margin: 10px;
+    border: 2px solid greenyellow;
+    text-align: center;
+    padding-top:10px;
+    border-radius: 10px;
+}
+input{
+    width: 10rem;
+    margin-left: 35px;
+    height: 25px;
+    border-radius: 10px;
+    background-color: pink;
+}
+#addcard{
+    float: right;
+    display: inline;
+    background-color: pink;
+    padding: 5px;
+    border-radius: 3px;
+}
+#addcard i{
+    margin-right: 10px;
+}
+#header{
+    background-color:greenyellow;
+    padding: 10px;
+   
+} 
+.head{
+    background-color: greenyellow;
+    border-radius: 10px;
+    height: 20px;
+    padding: 10px;
+    margin-bottom: 20px;
+    color:goldenrod;
+    display: flex;
+    align-items: center;
+}
+.foot{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0px;
+    border-top: 1px solid #333;
+}
+
+.citem {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+   
+} 
+#carditem i{
+width: 30px;
+color: brown;
+
+}
+
+
